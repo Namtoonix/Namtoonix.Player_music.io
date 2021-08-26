@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='ico/favicon.ico' rel='icon'>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./themify-icons-font/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="heading">Now playing:</div>
+            <div class="song-name">Tên bài hát</div>
+        </div>
+        <div class="box-square">
+            <img class="song-img-l" src="./playlist_info/playlist_image/trau.PNG" alt="">
+        </div>
+        <div class="nav">
+            <div class="nav-control loop-btn">
+                <i class="ti-loop"></i>
+            </div>
+            <div class="nav-control skip-backward-btn">
+                <i class="ti-control-skip-backward"></i>
+            </div>
+            <div class="nav-control play-btn">
+                <i class="ti-control-play"></i>
+            </div>
+            <div class="nav-control skip-forward-btn">
+                <i class="ti-control-skip-forward"></i>
+            </div>
+            <div class="nav-control play-radom-btn">
+                <i class="ti-control-shuffle"></i>
+            </div>
+        </div>
+        <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100" />
+        <audio src="" id="audio"></audio>
+    </div>
+    <div class="songs-list">
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
